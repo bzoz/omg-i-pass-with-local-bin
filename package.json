@@ -1,0 +1,14 @@
+{
+  "name": "omg-i-pass-with-local-bin",
+  "version": "1.0.0",
+  "description": "Test package for CITGM test suite",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "citgm-bin-script",
+    "test": "citgm-bin-script",
+    "postinstall": "citgm-bin-script"
+  },
+  "dependencies": {
+    "citgm-bin-script": "1.0.2"
+  }
+}
