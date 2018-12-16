@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "citgm-bin-script",
-    "test": "mocha",
+    "test": "mocha --reporter dot",
     "postinstall": "citgm-bin-script"
   },
   "devDependencies": {
