@@ -5,10 +5,11 @@
   "main": "index.js",
   "scripts": {
     "pretest": "citgm-bin-script",
-    "test": "citgm-bin-script",
+    "test": "mocha",
     "postinstall": "citgm-bin-script"
   },
   "dependencies": {
-    "citgm-bin-script": "1.0.2"
+    "citgm-bin-script": "1.0.2",
+    "mocha": "5.2.0"
   }
 }
