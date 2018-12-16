@@ -6,7 +6,7 @@
   "scripts": {
     "pretest": "citgm-bin-script",
     "test": "mocha --reporter dot",
-    "postinstall": "citgm-bin-script"
+    "postinstall": "citgm-bin-script --install"
   },
   "devDependencies": {
     "citgm-bin-script": "1.0.2",
